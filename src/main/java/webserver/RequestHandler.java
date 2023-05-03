@@ -35,7 +35,7 @@ public class RequestHandler extends Thread {
         		return;
         	} 
         	String[] tokens = line.split(" ");
-        	while (!"".equals(line)) {
+        	while (!"".equals(line)) { 
         		log.debug("header : {}", line);
         		line = br.readLine();
         	}
