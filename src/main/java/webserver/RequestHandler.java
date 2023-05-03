@@ -33,7 +33,7 @@ public class RequestHandler extends Thread {
         	// 예외처리
         	if(line == null) {
         		return;
-        	}
+        	} 
         	String[] tokens = line.split(" ");
         	while (!"".equals(line)) {
         		log.debug("header : {}", line);
